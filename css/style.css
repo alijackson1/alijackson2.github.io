@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    border: 0px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.memory {
+    margin: 0.2vw;
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    text-align: center;
+    background-color: red;
+    margin: 0.05vw;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
